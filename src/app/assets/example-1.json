@@ -1,0 +1,147 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Peruvian Potato & Chicken Platter",
+    "image": [
+      "https://example.com/photos/1x1/peruvian-potato-chicken.jpg",
+      "https://example.com/photos/4x3/peruvian-potato-chicken.jpg",
+      "https://example.com/photos/16x9/peruvian-potato-chicken.jpg"
+    ],
+    "author": {
+      "@type": "Organization",
+      "name": "The Potato Board"
+    },
+    "datePublished": "2025-03-14",
+    "description": "A delicious Peruvian-style potato and chicken platter, served with chunky salsa, green onions, and other vibrant accompaniments.",
+    "recipeCuisine": "Peruvian",
+    "prepTime": "PT15M",
+    "cookTime": "PT20M",
+    "totalTime": "PT35M",
+    "keywords": "chicken, potato, Peruvian, salsa",
+    "recipeYield": "4 servings",
+    "recipeCategory": "Main Course",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "320 calories",
+      "fatContent": "9 g",
+      "cholesterolContent": "160 mg",
+      "sodiumContent": "1360 mg",
+      "carbohydrateContent": "38 g",
+      "fiberContent": "7 g",
+      "proteinContent": "26 g"
+    },
+    "recipeIngredient": [
+      {
+        "name": "Reduced-sodium chicken broth",
+        "quantity": "2",
+        "unit": "cans",
+        "notes": "14 1/2 ounces each"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": "1 1/3",
+        "unit": "lb",
+        "notes": "4 medium, cut into 1-inch chunks"
+      },
+      {
+        "name": "Lemons",
+        "quantity": "2",
+        "unit": "whole",
+        "notes": "halved"
+      },
+      {
+        "name": "Jalapeño peppers",
+        "quantity": "2",
+        "unit": "whole",
+        "notes": "fresh or canned, quartered lengthwise"
+      },
+      {
+        "name": "Ground cumin",
+        "quantity": "2",
+        "unit": "tsp"
+      },
+      {
+        "name": "Boneless, skinless chicken breasts",
+        "quantity": "1",
+        "unit": "lb"
+      },
+      {
+        "name": "Cilantro sprigs",
+        "quantity": "1",
+        "unit": "cup"
+      },
+      {
+        "name": "Hard-cooked eggs",
+        "quantity": "2",
+        "unit": "whole",
+        "notes": "quartered"
+      },
+      {
+        "name": "Red bell pepper",
+        "quantity": "1",
+        "unit": "whole",
+        "notes": "cut into thin strips"
+      },
+      {
+        "name": "Pimiento-stuffed olives",
+        "quantity": "3/4",
+        "unit": "cup",
+        "notes": "green"
+      },
+      {
+        "name": "Whole green onions",
+        "quantity": "4",
+        "unit": "whole"
+      },
+      {
+        "name": "Chunky tomato salsa",
+        "quantity": "1",
+        "unit": "cup",
+        "notes": "prepared"
+      }
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Prepare the potatoes and chicken",
+        "text": "In a 3-quart saucepan, combine broth, potatoes, lemons, jalapeño peppers, and cumin. Bring to a boil, reduce heat, cover, and cook for 5 minutes."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Add the chicken",
+        "text": "Add the chicken breasts, cover, and cook for about 15 minutes longer, until the potatoes are tender and the chicken juices run clear when pierced."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Cool and drain",
+        "text": "Remove from heat and add cilantro to the saucepan. Let the potatoes and chicken cool in the broth. Drain the mixture, reserving 3/4 cup of the broth."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Assemble the platter",
+        "text": "Remove cilantro, jalapeños, and lemons. Shred the chicken and mound the potatoes in the center of a large platter. Arrange the chicken and remaining ingredients around the potatoes."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Serve",
+        "text": "Serve the reserved broth in a sauceboat and the salsa in a bowl on the side."
+      }
+    ],
+    "video": {
+      "@type": "VideoObject",
+      "name": "How to Make Peruvian Potato & Chicken Platter",
+      "description": "Watch how to make this flavorful Peruvian dish with chicken, potatoes, and salsa.",
+      "thumbnailUrl": [
+        "https://example.com/photos/1x1/peruvian-potato-chicken-video.jpg"
+      ],
+      "contentUrl": "https://www.example.com/peruvian-potato-chicken-video.mp4",
+      "uploadDate": "2025-03-14",
+      "duration": "PT2M45S",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": { "@type": "WatchAction" },
+        "userInteractionCount": 1750
+      }
+    }
+  }
+  

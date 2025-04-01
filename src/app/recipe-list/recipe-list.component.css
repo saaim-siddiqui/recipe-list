@@ -1,0 +1,32 @@
+.recipe-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.recipe-section {
+  margin: 30px 0;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.video-container {
+  margin-top: 20px;
+}
+
+.recipe-meta p,
+.recipe-times p {
+  margin: 5px 0;
+}

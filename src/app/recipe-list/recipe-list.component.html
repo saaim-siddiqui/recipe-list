@@ -1,0 +1,53 @@
+
+
+<div class="recipe-container">
+
+
+  <!-- Error State -->
+  <div *ngIf="state === 'error'" class="state-message error">
+    <p>{{ errorMessage }}</p>
+  </div>
+
+  <h1>{{ recipe.name }}</h1>
+
+  <div class="recipe-image" *ngIf="recipe.image && recipe.image.length">
+    <img [src]="recipe.image[0]" [alt]="recipe.name" />
+  </div>
+
+  <div class="recipe-description">
+    <p>{{ recipe.description }}</p>
+  </div>
+
+  <div class="recipe-section">
+    <h2>Ingredients</h2>
+    <ul>
+      <li *ngFor="let ingredient of recipe.recipeIngredient">
+        <strong>{{ ingredient.quantity }} {{ ingredient.unit }}</strong> {{ ingredient.name }}
+        <span *ngIf="ingredient.notes">({{ ingredient.notes }})</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="recipe-section">
+    <h2>Instructions</h2>
+    <ol>
+      <li *ngFor="let step of recipe.recipeInstructions">
+        <strong>{{ step.name }}</strong>: {{ step.text }}
+      </li>
+    </ol>
+  </div>
+
+  <div class="recipe-section" *ngIf="recipe.nutrition">
+    <h2>Nutrition Information</h2>
+    <ul>
+      <li *ngFor="let item of recipe.nutrition | keyvalue">
+        <strong>{{ item.key }}</strong>: {{ item.value }}
+      </li>
+    </ul>
+  </div>
+
+</div>
+
+
+
+
